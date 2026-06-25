@@ -1,0 +1,13 @@
+Database Operations
+
+CURD
+
+C=> Creat
+U=> Update
+R=> Read
+D=> Delete
+
+MONGODB (backend-development):-
+main password:-M25bLvv78XVdGnmq
+
+mongodb+srv://main:M25bLvv78XVdGnmq@cluster0.amtan7r.mongodb.net/

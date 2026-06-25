@@ -1,0 +1,5 @@
+npm init -y => nodejs application initiate
+
+npm i express => install express package
+
+npx nodemon server.js =>starts the server and everytime the changes happens restarts the server
