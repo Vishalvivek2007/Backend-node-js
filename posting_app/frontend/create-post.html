@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Post</title>
+
+    <link rel="stylesheet" href="create-post.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Create Post</h1>
+
+    <form id="postForm">
+
+        <input
+            type="file"
+            id="image"
+            accept="image/*"
+            required
+        >
+
+        <textarea
+            id="caption"
+            placeholder="Write caption..."
+            required
+        ></textarea>
+
+        <button type="submit">
+            Upload
+        </button>
+
+    </form>
+
+    <p id="message"></p>
+
+    <a href="posts.html">View Posts</a>
+
+</div>
+
+<script src="create-post.js"></script>
+
+</body>
+</html>
